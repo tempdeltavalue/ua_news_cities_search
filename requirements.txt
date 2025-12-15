@@ -1,0 +1,15 @@
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.25.0
+spacy>=3.7.0
+sentencepiece>=0.1.99
+seqeval
+evaluate
+scikit-learn
+numpy>=1.21.0
+
+#For gpu name search
+cupy-cuda12x; sys_platform == "linux"
+
+pandas
+tqdm
